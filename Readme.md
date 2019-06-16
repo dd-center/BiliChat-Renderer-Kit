@@ -10,7 +10,7 @@ This repository is using MIT license and all rights reserved.
 
 # Usage
 
-* Download the latest app in [releases](https://github.com/bilibili-dd-center/BiliChat-Renderer-Kit/releases). .NET Framework 4.7.2 required. 
+* Download the latest app in [releases](https://github.com/bilibili-dd-center/BiliChat-Renderer-Kit/releases). .NET Framework 4.7.2 is required. 
 
 * Make a danmaku screenshot using BiliChat. 
 
@@ -18,13 +18,15 @@ This repository is using MIT license and all rights reserved.
 
 * Open Adobe After Effects, put the video and the screenshot in a new compose. 
 
-* Open the "Pransform" property of the screenshot, right-click on the "Position" and then choose "Individual size". 
+* Open the "Transform" property of the screenshot, right-click on the "Position" and then choose "Individual size". 
 
 * Change the X Position to what you want. 
 
-* Alt-click the "Stopwatch" button and put the generated code into the Expression TextBox. 
+* Alt-click the "Stopwatch" button next to the Y Position and put the generated code into the Expression TextBox. 
 
 * Add the subtitles and render the video. 
+
+* EAT THE *MEAT*. 
 
 # Contact
 
