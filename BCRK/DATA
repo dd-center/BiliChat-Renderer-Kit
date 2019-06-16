@@ -1,0 +1,24 @@
+﻿//BiliChat Renderer Kit for ExtendScript (BCRK) v1.0
+//2019 Il Harper. 
+//This code using MIT license and all rights reserved. 
+
+//The line below defines the count of the danmaku. 
+//danmakuCount = 50;
+//The line below defines the time of the animation. 
+//animationTime = 0.3;
+
+transTime = thisComp.duration / danmakuCount;
+round = parseInt(time / transTime);
+roundTime = time % transTime;
+transPos = thisLayer.height / danmakuCount;
+if (roundTime < animationTime) {
+    easeOut(time, round * transTime, round * transTime + animationTime, thisComp.height - round * transPos, thisComp.height - (round + 1) * transPos);
+    }
+else {
+    transform.yPosition = thisComp.height - (round + 1) * transPos;
+    }
+
+//If you want to use linear rendering, just delete all the code above and remove the mark of the line below. 
+//startPos = thisComp.height;
+//endPos = thisComp.height - thisLayer.height;
+//linear(time, 0, thisComp.duration, startPos, endPos);
