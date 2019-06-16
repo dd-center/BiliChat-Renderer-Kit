@@ -4,13 +4,13 @@ Use this project to render the danmaku screenshot and the video into a wonderful
 
 Made by Il Harper with ♥
 
-This repository using MIT license and all rights reserved. 
+This repository is using MIT license and all rights reserved. 
 
 ![Screenshot (51)](https://user-images.githubusercontent.com/20179549/59564422-0de40280-9079-11e9-9e39-21d365d0fdb1.png)
 
 # Usage
 
-* Download the latest app in releases. .NET Framework 4.7.2 required. 
+* Download the latest app in [releases](https://github.com/bilibili-dd-center/BiliChat-Renderer-Kit/releases). .NET Framework 4.7.2 required. 
 
 * Make a danmaku screenshot using BiliChat. 
 
